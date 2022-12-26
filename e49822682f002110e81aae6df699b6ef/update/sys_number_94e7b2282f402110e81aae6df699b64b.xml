@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_938598_student_0_student">x_938598_student_0_student</category>
+        <maximum_digits>7</maximum_digits>
+        <number>10000</number>
+        <prefix>APPL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 14:46:50</sys_created_on>
+        <sys_id>94e7b2282f402110e81aae6df699b64b</sys_id>
+        <sys_name>APPL</sys_name>
+        <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+        <sys_update_name>sys_number_94e7b2282f402110e81aae6df699b64b</sys_update_name>
+    </sys_number>
+</record_update>

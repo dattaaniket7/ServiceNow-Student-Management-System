@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Validate Email Address.</description>
+        <field>email</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>validateEmail</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var inbox = g_form.getValue('email'); // give ur email field name on which u need to validate
+var validRegExp = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+if (inbox.search(validRegExp) == -1 ||(inbox.includes(".com")==false)){
+g_form.showFieldMsg('email', "invalid email address. " , 'error');
+
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 15:46:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e5507a42f802110e81aae6df699b623</sys_id>
+        <sys_name>validateEmail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+        <sys_update_name>sys_script_client_5e5507a42f802110e81aae6df699b623</sys_update_name>
+        <table>x_938598_student_0_student</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

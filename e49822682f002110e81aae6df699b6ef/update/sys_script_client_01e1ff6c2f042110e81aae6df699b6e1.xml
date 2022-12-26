@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>city</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>setState</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var city = g_form.getValue('city');
+    if(city=="Chennai"){
+        g_form.setValue('state','Tamilnadu');
+    }
+	if(city=="Mumbai"){
+        g_form.setValue('state','Maharashtra');
+    }
+	if(city=="Kolkata"){
+       g_form.setValue('state','West Bengal');
+    }if(city=="Delhi"){
+        g_form.setValue('state','Delhi');
+    }
+	
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 19:00:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01e1ff6c2f042110e81aae6df699b6e1</sys_id>
+        <sys_name>setState</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+        <sys_update_name>sys_script_client_01e1ff6c2f042110e81aae6df699b6e1</sys_update_name>
+        <table>x_938598_student_0_student</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

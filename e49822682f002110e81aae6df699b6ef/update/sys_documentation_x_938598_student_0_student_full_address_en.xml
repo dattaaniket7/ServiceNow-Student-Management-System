@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="full_address" label="Full Address" language="en" table="x_938598_student_0_student">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>full_address</element>
+            <help/>
+            <hint/>
+            <label>Full Address</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <plural>Full Address</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 15:19:58</sys_created_on>
+            <sys_name>Full Address</sys_name>
+            <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+            <sys_update_name>sys_documentation_x_938598_student_0_student_full_address_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

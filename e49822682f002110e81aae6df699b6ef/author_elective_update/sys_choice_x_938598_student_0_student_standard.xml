@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="standard" table="x_938598_student_0_student" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>standard</element>
+            <name>x_938598_student_0_student</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:51:28</sys_created_on>
+            <sys_name>standard</sys_name>
+            <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+            <sys_update_name>sys_choice_x_938598_student_0_student_standard</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nursery</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:51:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Nursery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LKG</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:51:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>LKG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HKG</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:51:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>HKG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1st</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:52:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>1st</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2nd</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:52:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>2nd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3rd</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:52:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>3rd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4th</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>4th</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5th</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:52:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>5th</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="title" table="x_938598_student_0_student" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <name>x_938598_student_0_student</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:35:21</sys_created_on>
+            <sys_name>title</sys_name>
+            <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+            <sys_update_name>sys_choice_x_938598_student_0_student_title</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Miss</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:36:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Miss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mr</label>
+            <language>en</language>
+            <name>x_938598_student_0_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 14:35:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Mr</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
