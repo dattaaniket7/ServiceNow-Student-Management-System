@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="State">4ac6e72c2fc02110e81aae6df699b679</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:53:57</sys_created_on>
+        <sys_id>5a9073e82f042110e81aae6df699b69d</sys_id>
+        <sys_name>West Bengal</sys_name>
+        <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+        <sys_update_name>question_choice_5a9073e82f042110e81aae6df699b69d</sys_update_name>
+        <text>West Bengal</text>
+        <value>west_bengal</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5a9073e82f042110e81aae6df699b69d"/>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Student Registration Form">91f457602fc02110e81aae6df699b650</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:54:00</sys_created_on>
+        <sys_id>a335d7242fc02110e81aae6df699b6db</sys_id>
+        <sys_name>Services.Student Registration Form</sys_name>
+        <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+        <sys_update_name>sc_cat_item_category_a335d7242fc02110e81aae6df699b6db</sys_update_name>
+    </sc_cat_item_category>
+</record_update>

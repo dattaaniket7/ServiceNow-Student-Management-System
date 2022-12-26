@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2dd7b6e42f402110e81aae6df699b61b" label="Leave Register" max_length="40" name="x_938598_student_0_leave_register" type="collection">
+        <element choice="1" label="Approval" max_length="40" name="approval" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Not yet requested" value="not yet requested"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
+            </choice>
+        </element>
+        <element label="Documents" max_length="40" name="documents" type="file_attachment"/>
+        <element label="Enrollment Number" max_length="40" name="enrollment_number" read_only="true" type="string"/>
+        <element label="Leave End Date" mandatory="true" max_length="40" name="leave_end_date" type="glide_date"/>
+        <element label="Leave Number" max_length="40" name="leave_number" read_only="true" type="string"/>
+        <element label="Leave Start Date" mandatory="true" max_length="40" name="leave_start_date" type="glide_date"/>
+        <element choice="1" label="Leave Type" mandatory="true" max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Annual" value="annual"/>
+                <element inactive_on_update="false" label="Emergency" value="emergency"/>
+                <element inactive_on_update="false" label="Leisure" value="leisure"/>
+                <element inactive_on_update="false" label="Medical" value="medical"/>
+                <element inactive_on_update="false" label="Personal" value="personal"/>
+            </choice>
+        </element>
+        <element label="Mention Leave Reason" mandatory="true" max_length="4000" name="mention_leave_reason" type="string"/>
+        <element label="Student Name" mandatory="true" max_length="32" name="student_name" reference="x_938598_student_0_student" type="reference"/>
+        <element label="Total Absence Day" max_length="40" name="total_absence_day" type="integer"/>
+        <index name="index">
+            <element name="student_name"/>
+        </index>
+    </element>
+</database>

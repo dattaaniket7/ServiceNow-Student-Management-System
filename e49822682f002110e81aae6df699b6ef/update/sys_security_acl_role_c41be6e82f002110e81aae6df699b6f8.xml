@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 13:49:43</sys_created_on>
+        <sys_id>c41be6e82f002110e81aae6df699b6f8</sys_id>
+        <sys_name>x_938598_student_0_student.x_938598_student_0.student_user</sys_name>
+        <sys_package display_value="Student Management System" source="x_938598_student_0">e49822682f002110e81aae6df699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">e49822682f002110e81aae6df699b6ef</sys_scope>
+        <sys_security_acl display_value="x_938598_student_0_student">cc1be6e82f002110e81aae6df699b6f5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c41be6e82f002110e81aae6df699b6f8</sys_update_name>
+        <sys_user_role display_value="x_938598_student_0.student_user" name="x_938598_student_0.student_user">3f0beea82f002110e81aae6df699b6a3</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
